@@ -1,5 +1,10 @@
 # Releases
 
+## 0.2.12
+2019-09-08
+- Added new `stat` method to the smb2Client
+- Added `createReadStream` and `createWriteStream` methods to the smb2Client
+
 ## 0.2.11
 2018-10-04
 - BUG FIX: Fixed bug on open_folder that was not using the right DesiredAccess
